@@ -4,17 +4,17 @@ import (
 	"net/http"
 )
 
-//Unauthorized
+//Unauthorized ...
 func Unauthorized(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 401, message...)
 }
 
-//Forbidden
+//Forbidden ...
 func Forbidden(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 403, message...)
 }
 
-//BadRequest
+//BadRequest ...
 func BadRequest(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 400, message...)
 }
@@ -24,12 +24,12 @@ func Internal(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 500, message...)
 }
 
-//NotFound
+//NotFound ...
 func NotFound(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 404, message...)
 }
 
-//BadGateway
+//BadGateway ...
 func BadGateway(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 502, message...)
 }
