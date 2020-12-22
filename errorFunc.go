@@ -29,3 +29,8 @@ func NotFound(w http.ResponseWriter, message ...interface{}) {
 	statusHTTP(w, 404, message...)
 }
 
+//BadGateway
+func BadGateway(w http.ResponseWriter, message ...interface{}) {
+	statusHTTP(w, 502, message...)
+}
+
