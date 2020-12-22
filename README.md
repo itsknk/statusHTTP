@@ -1,5 +1,6 @@
 # statusHTTP
 [![Go Reference](https://pkg.go.dev/badge/github.com/itsknk/statusHTTP.svg)](https://pkg.go.dev/github.com/itsknk/statusHTTP)
+
 Generate HTTP Errors with ease.
 
 statusHTTP is a library written in go that helps in generating HTTP errors in a structured manner.
