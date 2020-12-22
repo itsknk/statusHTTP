@@ -1,7 +1,7 @@
 # statusHTTP
 Generate HTTP Errors with ease.
 
-statusHTTP is a library written in go that helps in generating HTTP errors in a simple manner.
+statusHTTP is a library written in go that helps in generating HTTP errors in a structured manner.
 
 ## Install
 If you don't have go installed, you can download it [here](https://golang.org/doc/install).
