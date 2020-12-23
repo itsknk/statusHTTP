@@ -1,5 +1,6 @@
 # statusHTTP
 [![Go Reference](https://pkg.go.dev/badge/github.com/itsknk/statusHTTP.svg)](https://pkg.go.dev/github.com/itsknk/statusHTTP)
+[![Build Status](https://travis-ci.com/itsknk/statusHTTP.svg?branch=master)](https://travis-ci.com/itsknk/statusHTTP)
 
 Generate HTTP Errors with ease.
 
